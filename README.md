@@ -1,5 +1,5 @@
 # MonocularDepth-Using-LightFields
-This repository contains the code used in my dissertation entitled, "Using Light Fields to Enable Deep Monocular Depth Estimation". The original code and models used are taken and modified from various authors. These are all referenced below. The abstract of the dissertation is also listed below and a copy of the written work can be found [here](). 
+This repository contains the code used in my dissertation entitled, "Using Light Fields to Enable Deep Monocular Depth Estimation". The original code and models used are taken and modified from various authors. These are all referenced below. The abstract of the dissertation is also listed below. 
 
 # Running this evaluation
 This repo is **NOT** in a runnable state. Each model has a unique set of requirements to run. It is recommended to follow the instructions outlined by each model individually. The models used in this study are linked below. 
