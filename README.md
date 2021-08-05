@@ -2,7 +2,7 @@
 This repository contains the code used in my dissertation entitled, "Using Light Fields to Enable Deep Monocular Depth Estimation". The original code and models used are taken and modified from various authors. These are all referenced below. The abstract of the dissertation is also listed below and a copy of the written work can be found [here](). 
 
 # Running this evaluation
-This repo is **NOT** in a runnable state. Each model has a unique set of requirements to run. It is recommended to follow the instructions outline by each model individually. The models used in this study are linked below. 
+This repo is **NOT** in a runnable state. Each model has a unique set of requirements to run. It is recommended to follow the instructions outlined by each model individually. The models used in this study are linked below. 
 
 To use the HCI evaluation code (also linked below) the predicted depth maps should be saved as an array rather than an image. This allows us to convert the depth map to a disparity map and then to the required PFM file format. The code I used for this is provided, however, it is still advisable to use the original HCI evaluation code and modify that as necessary for your use case. 
 
