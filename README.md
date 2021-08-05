@@ -1,5 +1,10 @@
 # MonocularDepth-Using-LightFields
-This repository contains the code used in my dissertation entitled, "Using Light Fields to Enable Deep Monocular Depth Estimation". The original code and models used are taken and modified from various authors. These are all referenced below. The abstract of the dissertation is also listed below and a copy of the written work can be found [here]().
+This repository contains the code used in my dissertation entitled, "Using Light Fields to Enable Deep Monocular Depth Estimation". The original code and models used are taken and modified from various authors. These are all referenced below. The abstract of the dissertation is also listed below and a copy of the written work can be found [here](). 
+
+# Running this evaluation
+This repo is **NOT** in a runnable state. Each model has a unique set of requirements to run. It is recommended to follow the instructions outline by each model individually. The models used in this study are linked below. 
+
+To use the HCI evaluation code (also linked below) the predicted depth maps should be saved as an array rather than an image. This allows us to convert the depth map to a disparity map and then to the required PFM file format. The code I used for this is provided, however, it is still advisable to use the original HCI evaluation code and modify that as necessary for your use case. 
 
 # Abstract
 Knowing the depth of a scene is a vital part of many computer vision applications, ranging from autonomous driving to augmented reality. Monocular depth estimation is the technique of predicting the depth of a scene given a single image. This ill-posed problem is increasingly being tackled with end-to-end neural networks thanks to advancements in machine learning. Deep learning techniques require large datasets with accurate ground truth depth maps for training. There are many features within an image that are used to decipher depth, these include: texture, object size and defocused blur. The large datasets that are provided for monocular depth estimation by nature do not include all of these features. 
@@ -32,3 +37,15 @@ https://github.com/nianticlabs/monodepth2
 Maxim Maximov, Kevin Galim, and Laura Leal-Taixe. Focus on defocus: Bridging the synthetic to real domain gap for depth estimation. In _Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)_, June 2020. [Link](https://openaccess.thecvf.com/content_CVPR_2020/html/Maximov_Focus_on_Defocus_Bridging_the_Synthetic_to_Real_Domain_Gap_CVPR_2020_paper.html)
 ### Code
 https://github.com/dvl-tum/defocus-net
+
+# HCI dataset and evaluation
+### Papers
+Katrin Honauer, Ole Johannsen, Daniel Kondermann, and Bastian Goldluecke. A dataset and evaluation methodology for depth estimation on 4d light fields. In _Asian Conference on Computer Vision_. Springer, 2016. [Link](http://lightfield-analysis.net/benchmark/paper/lightfield_benchmark_accv_2016.pdf)
+
+Ole Johannsen, Katrin Honauer, Bastian Goldluecke, Anna Alperovich, Federica Battisti, Yunsu Bok, Michele Brizzi, Marco Carli, Gyeongmin Choe, Maximilian Diebold, Marcel Gutsche, Hae-Gon Jeon, In So Kweon, Alessandro Neri, Jaesik Park, Jinsun Park, Hendrik Schilling, Hao Sheng, Lipeng Si, Michael Strecke, Antonin Sulc, Yu-Wing Tai, Qing Wang, Ting-Chun Wang, Sven Wanner, Zhang Xiong, Jingyi Yu, Shuo Zhang, and Hao Zhu. A taxonomy and evaluation of dense light field depth estimation algorithms. In _Conference on Computer Vision and Pattern Recognition - LF4CV Workshop_, 2017. [Link](http://lightfield-analysis.net/benchmark/paper/survey_cvprw_lf4cv_2017.pdf)
+
+### Code
+https://github.com/lightfield-analysis/evaluation-toolkit
+
+### Website
+https://lightfield-analysis.uni-konstanz.de/
