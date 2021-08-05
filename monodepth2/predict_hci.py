@@ -4,7 +4,8 @@
 # which allows for non-commercial use only, the full terms of which are made
 # available in the LICENSE file.
 
-# This file was copied and subsequently modified from the `test_simple.py` file provided by original authors
+# This file was modified as part of this research project. It was copied and modified from the original `test_simple.py`
+# provided by the original authors of MonoDepth2
 
 from __future__ import absolute_import, division, print_function
 
